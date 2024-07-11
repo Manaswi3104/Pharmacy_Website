@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+  
+    border: border-box;
+    color: black;
+
+}
+
+/*header*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c0eaf6;
+    padding: 5px 30px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 1.2rem;
+}
+.offers{
+   padding-left: 5px;
+   padding-right: 60px;
+}
+.cart{
+    padding-left: 5px;
+    padding-right: 60px;
+}
+.login{
+    padding-left: 5px;
+    padding-right: 30px;
+}
+#offer_logo{
+    color: #033B4A;
+    padding: 0px 5px;
+}
+#cart_logo{
+    color: #033B4A;
+    padding: 0px 5px;
+}
+ #login_logo{
+    color: #033B4A;
+    padding: 0px 5px;
+}
+hr{
+    background-color: #033B4A;
+}
+            
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0eaf6;
+    font-weight: 550;
+    padding: 10px 0px;
+    
+}
+.navlist ul{
+    display: flex;
+    align-items: center;
+    
+}
+.navlist ul li{
+    list-style: none;
+    margin: 0px 30px;
+    font-size: 1.15rem;
+}
+.navlist ul li a{
+    text-decoration: none;
+color: #012934;;
+}
+.navlist ul li a:hover{
+    color:  #0f4453;;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    margin-top: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+     background-color: #033B4A;
+    color: white;
+}
+.foot-panel1{
+       
+    
+        height: 250px;
+        display: flex;
+        justify-content: space-evenly;
+}
+.foot-panel1 ul p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #dddddd;
+}
+.foot-panel2{
+   
+    color: #dddddd;
+    height: 50px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.foot-panel1 ul{
+    margin-top: 1.2rem;
+}
+.foot-panel1 ul a{
+    display: block;
+    font-size: 0.90rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.foot-panel1 a {
+    text-decoration: none; 
+    color: inherit; 
+    margin-right: 10px;
+}
+.follow{
+    display: flex;
+    align-items: center; /* Aligns icons vertically centered */
+    justify-content: center;
+}
+.follow i{
+    font-size: 1.5rem;
+}
+.fa-facebook {
+    color: #3b5998; 
+}
+.fa-instagram {
+    color: #E1306C; 
+}
+.fa-twitter {
+    color: #74C0FC;
+}
+.fa-linkedin {
+    color: #74C0FC; 
+}
+a:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
