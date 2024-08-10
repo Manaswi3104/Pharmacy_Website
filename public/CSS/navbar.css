@@ -1,0 +1,64 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #033B4A;
+    padding: 5px 23px;
+    position:fixed;
+    top: 0;
+    width: 97%;
+}
+.left{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.title{
+   margin: 0px 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.center ul{
+    display: flex;
+}
+.center ul li{
+    list-style: none;
+    margin: 0px 30px;
+    font-size: 1.15rem;
+}
+.center ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    vertical-align: middle;
+}
+.center ul li a:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+/* .center ul li a:hover{
+    font-size: 1.2rem;
+    color: rgb(237, 101, 180);
+    text-decoration: underline;
+} */
+.right{
+    display: flex;
+   align-items: center;
+}
+/* #login_logo{
+    margin: 0px 5px 0px 0px;
+} */
+#cart_logo{
+    margin: 0px 5px 0px 5px;
+}
+.login{
+    color: #ffffff;
+}
+
+
+

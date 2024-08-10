@@ -1,0 +1,121 @@
+.main {
+    margin-top: 3%;
+
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.search-box input{
+    text-align: center;
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(8, 8, 8);
+    background-color:#f1f6f8;
+    border-radius: 25px;
+    margin-right: 3px;
+}
+
+.search-box input::placeholder{
+    color: rgb(97, 91, 91);
+}
+.search-box button{
+    width: 46px;
+    height: 46px;
+    color: white;
+    background-color: #033B4A;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.search-box button:hover{
+    color: #033B4A;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .main-page{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.main-page h1{
+    font-size: 3rem;
+    color: #033B4A;
+}
+.content {
+    font-size: 1.3rem;
+}
+.content h2{
+    color: #033B4A;
+}
+.content p{
+    color: #075e76;
+} */
+
+
+
+
+/*carasouel*/
+.main-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: #fffefe;
+    margin: 0;
+}
+
+.carousel {
+    position: relative;
+    width: 95%;
+    max-width: 1600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    display: flex;
+    min-width: 100%;
+    transition: opacity 1s;
+}
+
+.carousel-item img {
+    width: 33.33%;
+    display: block;
+    border-radius: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+

@@ -1,0 +1,21 @@
+
+<% layout("./layouts/boilerplate1.ejs") %> <%= success %>
+<link rel="stylesheet" href="/CSS/signup.css">
+<body>
+    <div class="first">
+        <div class="signup-container">
+            <h2>Signup in Pharamacy4U</h2>
+            <form action="/signup" method="post" >
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <button type="submit">SignUp</button>
+            </form>
+        </div>
+    </div>
+</body>

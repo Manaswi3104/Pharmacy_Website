@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharamacy4U</title>
+    <link rel="stylesheet" href="/CSS/navbar.css">
+</head>
+<body>
+    <header id="header">
+        <div class="navbar">
+            <div class="left">
+                <div class="img">logo</div>
+                 <div class="title"><h1>Pharmacy4U</h1></div>
+            </div>
+            <div class="center">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#categories">Products</a></li>
+                    <li><a href="/">Prescription Services</a></li>
+                    <li><a href="#footer">About Us</a></li>
+                    <li><a href="#footer">Contact Us</a></li>
+                  </ul>
+            </div>
+            <div class="right">
+                <% if(!currUser) { %>
+                <a  class="login" href="/signup">Sign up</a>
+                <a  class="login" href="/login">Log in</a>
+                <% } %>
+                <% if(currUser) { %>
+                <a  class="login" href="/logout">Log out</a>
+                <% } %>
+                <a href=""> <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"  id="cart_logo"></i></a>
+            </div>
+        </div>
+        hr
+    </header>
+    
+</body>
+</html>

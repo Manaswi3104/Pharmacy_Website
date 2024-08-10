@@ -1,0 +1,16 @@
+<% layout("./layouts/boilerplate") %>
+<link rel="stylesheet" href="/CSS/categories.css">
+<body>
+    <ul id="categories">
+        <div class="category">
+            <% for(let category of allCategories) { %>
+                <div class="category-content">
+                    <img src="<%= category.image %>" alt="#">
+                    <h3><b><%= category.title %></b></h3>
+                </div>
+                
+            <% } %>  
+        </div>
+    </ul>
+
+</body>
